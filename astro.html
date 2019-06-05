@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Astrocytes!</title>
+  <meta name="description" content="hat Do You Know About Astrocytes?">
+  <link href="astro.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Jura:300" rel="stylesheet">
+</head>
+
+<body>
+  <header role="banner">
+    
+  </header>
+
+  <main role="main" class="main">
+    <div class="startScreen">
+      <h1>What Do You Know About Astrocytes?</h1>
+      <button class="startButton">Lets Go!</button>
+    </div>
+    <div class="questionScreen">
+      <form id="questionForm" role="form">
+        <input type="submit" value="check answer" class="checkAnswerButton">
+      </form>
+      
+    </div>
+    <div class="feedbackScreen">Feedback
+      <button class="nextQuestionButton">Next</button>
+    </div>
+    <div class="endScreen">
+    </div>
+  </main>
+
+  <footer role="footer" class="footer">
+    <div class="questionCount">
+      <p>Question: <span class="questionNumber">0</span>/10</p>
+      <p>Score: <span class="scoreCount">0</span></p>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="astro.js"></script>
+</body>
+
+</html>
