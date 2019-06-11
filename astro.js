@@ -4,9 +4,9 @@ const Questions = [{
     correctAnswer: "Glial"
   },
   {
-    question: "What is a tripartite synapse is composed of?",
+    question: "What is a tripartite synapse composed of?",
     answers: ["Two astrocytes and one neuron", "An astrocyte, a neuron, and a microglial cell", "Two neurons and one astrocyte ", "Two neurons and an interneuron"],
-    correctAnswer: "Two neurons and an interneuron"
+    correctAnswer: "Two neurons and one astrocyte "
   },
   {
     question: "Neuroscientists historically ignored astrocytes as being active players in brain communication for what reason?",
@@ -24,7 +24,7 @@ const Questions = [{
     correctAnswer: "calcium"
   },
   {
-    question: "The extensions of an astrocyte that contact blood vessels is called a ______.",
+    question: "The extensions of an astrocyte that contact blood vessels are called______.",
     answers: ["endfeet","toefeet","fingerfeet","headfeat"],
     correctAnswer: "endfeet"
   },
